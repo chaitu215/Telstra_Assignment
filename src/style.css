@@ -1,0 +1,57 @@
+h1, p {
+  font-family: Lato;
+}
+
+.filter{
+  background-color: lightgoldenrodyellow;
+  width: 20%;
+  height: 90%;
+  float: left;
+}
+
+.content{
+  width: 80%;
+  height: 90%;
+  float: left;
+  position: relative;
+  overflow-y: auto;
+  border: "10px lightgreen solid";
+}
+
+.species{
+  background-color: lightgray;
+  width: 100%;
+  height: 20%;
+  float: left;
+}
+
+.gender{
+  background-color: lightgray;
+  width: 100%;
+  height: 20%;
+  float: left;
+}
+
+.origin{
+  background-color: lightgray;
+  width: 100%;
+  height: 20%;
+  float: left;
+}
+
+.selectorder{
+  width: 100px;
+  height: 20x;
+  float: right;
+}
+
+@media screen and (max-width: 1080px) {
+  .content.filter {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }  }
+
+.pagination{
+  position: relative;
+  bottom: 0;
+  
+}
